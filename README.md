@@ -4,16 +4,24 @@ Una API REST desarrollada con FastAPI que proporciona funcionalidades básicas d
 
 ## Estructura del Proyecto
 
-simple-calculator/
+calculator/
+│
 ├── app/
 │   ├── __init__.py
-│   ├── models.py       # Modelos Pydantic para validación de datos
-│   ├── operations.py   # Funciones de la calculadora
-│   ├── validators.py   # Validadores adicionales
-│   └── errors.py       # Manejo de errores
-├── main.py             # Aplicación
-├── requirements.txt    # Dependencias
-└── README.md           # Documentación
+│   ├── main.py           # Aplicación FastAPI (endpoints)
+│   ├── schemas.py        # Modelos Pydantic (antes models.py)
+│   ├── services/
+│   │   ├── calculator.py # Lógica de operaciones (antes operations.py)
+│   ├── utils/
+│   │   ├── validators.py
+│   │   ├── errors.py
+│
+├── tests/                # Directorio para pruebas
+│   ├── test_operations.py
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
 
 ## Requisitos
 
