@@ -3,7 +3,7 @@
 Una API REST desarrollada con FastAPI que proporciona funcionalidades básicas de calculadora.
 
 ## Estructura del Proyecto
-
+```plaintext
 simple-calculator/
 ├── app/
 │   ├── __init__.py
@@ -14,6 +14,7 @@ simple-calculator/
 ├── main.py             # Aplicación
 ├── requirements.txt    # Dependencias
 └── README.md           # Documentación
+```
 
 ## Requisitos
 
