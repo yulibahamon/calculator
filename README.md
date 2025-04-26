@@ -6,7 +6,6 @@ Una API REST desarrollada con FastAPI que proporciona funcionalidades básicas d
 ```plaintext
 simple-calculator/
 ├── app/
-│   ├── __init__.py
 │   ├── models.py       # Modelos Pydantic para validación de datos
 │   ├── operations.py   # Funciones de la calculadora
 │   ├── validators.py   # Validadores adicionales
