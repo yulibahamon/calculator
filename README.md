@@ -90,6 +90,7 @@ FastAPI genera automáticamente la documentación de la API. Puedes acceder a:
 **Descripción:** Realiza operaciones avanzadas entre dos números.
 
 **Operaciones disponibles:**
+- `subtract`: subtract
 - `multiplication`: Multiplicación
 - `division`: División (validación para evitar división por cero)
 - `power`: Potencia
